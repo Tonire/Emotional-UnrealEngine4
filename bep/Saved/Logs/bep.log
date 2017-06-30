@@ -433,3 +433,645 @@ LogInit: Object subsystem initialized
 [2017.06.30-18.57.20:011][333]LogSavePackage: Save=1316.47ms
 [2017.06.30-18.57.20:011][333]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/FirstPersonExampleMap_BuiltDataB213166F4CD2E297D12D9D90E4E1DC03.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
 [2017.06.30-18.57.20:013][333]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.06.30-18.57.49:664][508]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.30-18.57.56:158][747]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/Notas" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset" SILENT=true
+[2017.06.30-18.57.56:169][747]LogSavePackage: Save=7.21ms
+[2017.06.30-18.57.56:169][747]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/NotasDDD32DE94B9F2450E0FD0FA97C8B1E7C.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset'
+[2017.06.30-18.57.56:171][747]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset
+[2017.06.30-18.58.11:577][ 45]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\tonir\Desktop\Notas\Si.wav)
+[2017.06.30-18.58.11:606][ 45]LogAudioDerivedData:Display: Building compressed audio format OGG wave Si...
+[2017.06.30-18.58.11:675][ 45]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/FirstPersonBP/GrappleBP/Musica/Si.Si.
+[2017.06.30-18.58.11:734][ 45]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\tonir\Desktop\Notas\Sib.wav)
+[2017.06.30-18.58.11:736][ 45]LogAudioDerivedData:Display: Building compressed audio format OGG wave Sib...
+[2017.06.30-18.58.11:744][ 45]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/FirstPersonBP/GrappleBP/Musica/Sib.Sib.
+[2017.06.30-18.58.11:802][ 45]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\tonir\Desktop\Notas\Sol.wav)
+[2017.06.30-18.58.11:804][ 45]LogAudioDerivedData:Display: Building compressed audio format OGG wave Sol...
+[2017.06.30-18.58.11:812][ 45]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/FirstPersonBP/GrappleBP/Musica/Sol.Sol.
+[2017.06.30-18.58.11:870][ 45]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\tonir\Desktop\Notas\Solb.wav)
+[2017.06.30-18.58.11:872][ 45]LogAudioDerivedData:Display: Building compressed audio format OGG wave Solb...
+[2017.06.30-18.58.11:880][ 45]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/FirstPersonBP/GrappleBP/Musica/Solb.Solb.
+[2017.06.30-18.58.11:940][ 45]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\tonir\Desktop\Notas\Lab.wav)
+[2017.06.30-18.58.11:942][ 45]LogAudioDerivedData:Display: Building compressed audio format OGG wave Lab...
+[2017.06.30-18.58.11:950][ 45]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/FirstPersonBP/GrappleBP/Musica/Lab.Lab.
+[2017.06.30-18.58.12:009][ 45]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\tonir\Desktop\Notas\Do.wav)
+[2017.06.30-18.58.12:011][ 45]LogAudioDerivedData:Display: Building compressed audio format OGG wave Do...
+[2017.06.30-18.58.12:019][ 45]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/FirstPersonBP/GrappleBP/Musica/Do.Do.
+[2017.06.30-18.58.12:077][ 45]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\tonir\Desktop\Notas\DoGrave.wav)
+[2017.06.30-18.58.12:079][ 45]LogAudioDerivedData:Display: Building compressed audio format OGG wave DoGrave...
+[2017.06.30-18.58.12:087][ 45]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/FirstPersonBP/GrappleBP/Musica/DoGrave.DoGrave.
+[2017.06.30-18.58.12:144][ 45]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\tonir\Desktop\Notas\Fa.wav)
+[2017.06.30-18.58.12:146][ 45]LogAudioDerivedData:Display: Building compressed audio format OGG wave Fa...
+[2017.06.30-18.58.12:154][ 45]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/FirstPersonBP/GrappleBP/Musica/Fa.Fa.
+[2017.06.30-18.58.12:211][ 45]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\tonir\Desktop\Notas\La.wav)
+[2017.06.30-18.58.12:213][ 45]LogAudioDerivedData:Display: Building compressed audio format OGG wave La...
+[2017.06.30-18.58.12:221][ 45]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/FirstPersonBP/GrappleBP/Musica/La.La.
+[2017.06.30-18.58.12:278][ 45]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\tonir\Desktop\Notas\Mi.wav)
+[2017.06.30-18.58.12:280][ 45]LogAudioDerivedData:Display: Building compressed audio format OGG wave Mi...
+[2017.06.30-18.58.12:288][ 45]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/FirstPersonBP/GrappleBP/Musica/Mi.Mi.
+[2017.06.30-18.58.12:344][ 45]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\tonir\Desktop\Notas\Mib.wav)
+[2017.06.30-18.58.12:346][ 45]LogAudioDerivedData:Display: Building compressed audio format OGG wave Mib...
+[2017.06.30-18.58.12:354][ 45]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/FirstPersonBP/GrappleBP/Musica/Mib.Mib.
+[2017.06.30-18.58.12:411][ 45]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\tonir\Desktop\Notas\Re.wav)
+[2017.06.30-18.58.12:413][ 45]LogAudioDerivedData:Display: Building compressed audio format OGG wave Re...
+[2017.06.30-18.58.12:422][ 45]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/FirstPersonBP/GrappleBP/Musica/Re.Re.
+[2017.06.30-18.58.12:479][ 45]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\tonir\Desktop\Notas\Reb.wav)
+[2017.06.30-18.58.12:480][ 45]LogAudioDerivedData:Display: Building compressed audio format OGG wave Reb...
+[2017.06.30-18.58.12:489][ 45]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/FirstPersonBP/GrappleBP/Musica/Reb.Reb.
+[2017.06.30-18.59.39:047][968]LogAudioEditor: Performing atomic reimport of [C:/Users/tonir/Desktop/Notas/La.wav]
+[2017.06.30-18.59.39:048][968]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/tonir/Desktop/Notas/La.wav)
+[2017.06.30-18.59.39:056][968]LogAudioEditor: -- imported successfully
+[2017.06.30-18.59.39:062][968]LogAudioEditor: Performing atomic reimport of [C:/Users/tonir/Desktop/Notas/Lab.wav]
+[2017.06.30-18.59.39:063][968]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/tonir/Desktop/Notas/Lab.wav)
+[2017.06.30-18.59.39:063][968]LogAudioEditor: -- imported successfully
+[2017.06.30-18.59.39:078][968]LogAudioDerivedData:Display: Building compressed audio format OGG wave Lab...
+[2017.06.30-18.59.39:087][968]LogAudioDerivedData:Display: Building compressed audio format OGG wave La...
+[2017.06.30-19.00.32:599][554]LogAudioEditor: Performing atomic reimport of [C:/Users/tonir/Desktop/Notas/Sol.wav]
+[2017.06.30-19.00.32:599][554]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/tonir/Desktop/Notas/Sol.wav)
+[2017.06.30-19.00.32:600][554]LogAudioEditor: -- imported successfully
+[2017.06.30-19.00.32:605][554]LogAudioEditor: Performing atomic reimport of [C:/Users/tonir/Desktop/Notas/Solb.wav]
+[2017.06.30-19.00.32:605][554]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/tonir/Desktop/Notas/Solb.wav)
+[2017.06.30-19.00.32:606][554]LogAudioEditor: -- imported successfully
+[2017.06.30-19.00.32:623][554]LogAudioDerivedData:Display: Building compressed audio format OGG wave Solb...
+[2017.06.30-19.00.32:632][554]LogAudioDerivedData:Display: Building compressed audio format OGG wave Sol...
+[2017.06.30-19.00.32:641][554]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/FirstPersonBP/GrappleBP/Musica/Sol.Sol.
+[2017.06.30-19.02.29:648][ 57]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.30-19.02.30:003][ 73]Cmd: DELETE
+[2017.06.30-19.02.30:003][ 73]Cmd: ACTOR DELETE
+[2017.06.30-19.02.30:003][ 73]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.30-19.02.30:027][ 73]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2017.06.30-19.02.30:922][127]Cmd: TRANSACTION UNDO
+[2017.06.30-19.02.30:922][127]LogEditorTransaction: Undo Delete Actors
+[2017.06.30-19.02.31:668][151]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (Do)
+[2017.06.30-19.02.32:453][194]Cmd: DELETE
+[2017.06.30-19.02.32:453][194]Cmd: ACTOR DELETE
+[2017.06.30-19.02.32:454][194]LogEditorActor: Deleted Actor: AmbientSound
+[2017.06.30-19.02.32:504][194]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2017.06.30-19.03.40:043][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/Notas" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset" SILENT=true
+[2017.06.30-19.03.40:065][939]LogSavePackage: Save=14.12ms
+[2017.06.30-19.03.40:065][939]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Notas54E18B154072460DDC0B22B9AE14523C.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset'
+[2017.06.30-19.03.40:068][939]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset
+[2017.06.30-19.03.40:541][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/Notas" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset" SILENT=true
+[2017.06.30-19.03.40:554][961]LogSavePackage: Save=7.63ms
+[2017.06.30-19.03.40:555][961]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/NotasEE61E7424BEABA86C1F83092CC4D132E.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset'
+[2017.06.30-19.03.40:556][961]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset
+[2017.06.30-19.04.34:618][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/Notas" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset" SILENT=true
+[2017.06.30-19.04.34:631][953]LogSavePackage: Save=7.05ms
+[2017.06.30-19.04.34:631][953]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Notas732396184640BA6087E125ABCC01B2C4.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset'
+[2017.06.30-19.04.34:635][953]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset
+[2017.06.30-19.04.41:343][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/Notas" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset" SILENT=true
+[2017.06.30-19.04.41:354][334]LogSavePackage: Save=6.58ms
+[2017.06.30-19.04.41:354][334]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/NotasA555247D49F21C7AE5EAAC9092A7D0A2.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset'
+[2017.06.30-19.04.41:357][334]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset
+[2017.06.30-19.05.01:906][492]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/Notas" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset" SILENT=true
+[2017.06.30-19.05.01:917][492]LogSavePackage: Save=6.36ms
+[2017.06.30-19.05.01:917][492]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/NotasB2F6A77A44354360177E809C4F65CE39.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset'
+[2017.06.30-19.05.01:921][492]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset
+[2017.06.30-19.05.11:149][ 16]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/Notas" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset" SILENT=true
+[2017.06.30-19.05.11:160][ 16]LogSavePackage: Save=6.48ms
+[2017.06.30-19.05.11:160][ 16]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Notas6FE7929546CA97DED1B5819DF6C93169.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset'
+[2017.06.30-19.05.11:163][ 16]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset
+[2017.06.30-19.05.49:785][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/Notas" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset" SILENT=true
+[2017.06.30-19.05.49:797][ 49]LogSavePackage: Save=7.56ms
+[2017.06.30-19.05.49:797][ 49]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/NotasADF240604648BE36044C5B93615092F8.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset'
+[2017.06.30-19.05.49:801][ 49]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset
+[2017.06.30-19.06.12:540][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/Notas" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset" SILENT=true
+[2017.06.30-19.06.12:552][195]LogSavePackage: Save=7.17ms
+[2017.06.30-19.06.12:552][195]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/NotasA0DAA6874FCC7F0E27708D9493FDF873.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset'
+[2017.06.30-19.06.12:554][195]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset
+[2017.06.30-19.06.13:052][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/Notas" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset" SILENT=true
+[2017.06.30-19.06.13:063][217]LogSavePackage: Save=7.17ms
+[2017.06.30-19.06.13:063][217]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Notas2C973B384F479E92E64D30AE01C7D31C.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset'
+[2017.06.30-19.06.13:065][217]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset
+[2017.06.30-19.06.42:911][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/Notas" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset" SILENT=true
+[2017.06.30-19.06.42:924][721]LogSavePackage: Save=8.58ms
+[2017.06.30-19.06.42:924][721]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Notas5514882742D67B31EE89F3B33435FDBC.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset'
+[2017.06.30-19.06.42:927][721]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset
+[2017.06.30-19.07.11:313][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/Notas" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset" SILENT=true
+[2017.06.30-19.07.11:326][153]LogSavePackage: Save=8.54ms
+[2017.06.30-19.07.11:326][153]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Notas79F5724843E8FDDAC7311298010D6DD8.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset'
+[2017.06.30-19.07.11:330][153]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset
+[2017.06.30-19.07.24:472][798]BlueprintLog: New page: Compile BoxBP
+[2017.06.30-19.07.32:968][246]LogEditorViewport: Clicking on Actor (LMB): StaticBoxBP_C (StaticBoxBP2)
+[2017.06.30-19.07.33:482][276]Cmd: DELETE
+[2017.06.30-19.07.33:482][276]Cmd: ACTOR DELETE
+[2017.06.30-19.07.33:482][276]LogEditorActor: Deleted Actor: StaticBoxBP_C
+[2017.06.30-19.07.33:499][276]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.06.30-19.07.33:907][300]LogEditorViewport: Clicking on Actor (LMB): StaticBoxBP_C (StaticBoxBP)
+[2017.06.30-19.08.03:827][ 11]LogClass:Warning: Type mismatch in nota of SKEL_BoxBP_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2017.06.30-19.08.03:829][ 11]LogClass:Warning: Type mismatch in nota of SKEL_StaticBoxBP_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2017.06.30-19.08.04:409][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-19.08.04:439][ 38]LogSavePackage: Save=19.64ms
+[2017.06.30-19.08.04:439][ 38]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBPEB5D45BF4519D42D720A25A07B73853E.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-19.08.04:442][ 38]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-19.08.05:237][ 84]BlueprintLog: New page: Compile BoxBP
+[2017.06.30-19.08.05:247][ 84]LogClass:Warning: Type mismatch in nota of SKEL_StaticBoxBP_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2017.06.30-19.08.05:249][ 84]LogClass:Warning: Type mismatch in nota of BoxBP_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2017.06.30-19.09.05:204][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-19.09.05:228][148]LogSavePackage: Save=18.93ms
+[2017.06.30-19.09.05:228][148]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBPC705389B4F17C5E5C337BE89B306EC40.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-19.09.05:231][148]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-19.09.34:041][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-19.09.34:064][706]LogSavePackage: Save=18.80ms
+[2017.06.30-19.09.34:064][706]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBPEBECD2B54F8B6EB8C2C532BDCFCFAE42.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-19.09.34:066][706]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-19.09.34:580][736]BlueprintLog: New page: Compile BoxBP
+[2017.06.30-19.09.55:049][916]LogSavePackage: Save=125.11ms
+[2017.06.30-19.09.55:049][916]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/FirstPersonExampleMapE0CA80FA4996B260E419AFAFA528A41A.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.06.30-19.09.55:052][916]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.06.30-19.09.56:066][916]LogSavePackage: Save=912.82ms
+[2017.06.30-19.09.56:066][916]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/FirstPersonExampleMap_BuiltDataB117FF8C418214DBB2395CAAFF5631C5.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.06.30-19.09.56:069][916]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.06.30-19.10.04:032][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/Notas" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset" SILENT=true
+[2017.06.30-19.10.04:049][328]LogSavePackage: Save=8.00ms
+[2017.06.30-19.10.04:049][328]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Notas44D2B52F45E8F64F7878828CC4E0ABB5.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset'
+[2017.06.30-19.10.04:051][328]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notas.uasset
+[2017.06.30-19.10.22:750][282]LogClass:Warning: Type mismatch in nota of SKEL_BoxBP_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2017.06.30-19.10.22:752][282]LogClass:Warning: Type mismatch in nota of SKEL_StaticBoxBP_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2017.06.30-19.10.23:475][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-19.10.23:499][313]LogSavePackage: Save=19.68ms
+[2017.06.30-19.10.23:499][313]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBP34B81EBE4CFD5F0851702C9053C516B3.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-19.10.23:502][313]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-19.10.26:396][464]BlueprintLog: New page: Compile BoxBP
+[2017.06.30-19.10.26:406][464]LogClass:Warning: Type mismatch in nota of SKEL_StaticBoxBP_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2017.06.30-19.10.26:409][464]LogClass:Warning: Type mismatch in nota of BoxBP_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2017.06.30-19.10.52:990][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-19.10.53:013][766]LogSavePackage: Save=18.38ms
+[2017.06.30-19.10.53:013][766]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBP1209DF3E4DF81059AABD77A6D3E03550.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-19.10.53:016][766]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-19.11.07:230][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-19.11.07:253][475]LogSavePackage: Save=18.38ms
+[2017.06.30-19.11.07:253][475]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBP497E971D4C4AEE1BD208BD86EA7837C8.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-19.11.07:257][475]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-19.11.09:406][585]BlueprintLog: New page: Compile BoxBP
+[2017.06.30-19.11.24:440][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-19.11.24:470][311]LogSavePackage: Save=24.86ms
+[2017.06.30-19.11.24:470][311]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBP3F4A7F3B4F77D4B2DC3506A750434CF4.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-19.11.24:473][311]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-19.11.40:565][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-19.11.40:589][108]LogSavePackage: Save=19.59ms
+[2017.06.30-19.11.40:589][108]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBP00CB419944DD4E84C9B554B351EF5374.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-19.11.40:592][108]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-19.11.59:071][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-19.11.59:099][ 56]LogSavePackage: Save=23.28ms
+[2017.06.30-19.11.59:099][ 56]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBP09B61E36427ACE101007889DD5C8FF7E.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-19.11.59:100][ 56]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-19.12.02:282][182]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.06.30-19.12.02:885][213]LogEditorViewport: Clicking on Actor (LMB): StaticBoxBP_C (StaticBoxBP)
+[2017.06.30-19.12.22:358][329]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-19.12.22:383][329]LogSavePackage: Save=19.31ms
+[2017.06.30-19.12.22:383][329]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBP79D88EE6411A67741C1994A33E361927.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-19.12.22:385][329]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-19.12.23:078][369]BlueprintLog: New page: Compile BoxBP
+[2017.06.30-19.13.17:786][477]LogClass:Warning: Type mismatch in nota of SKEL_BoxBP_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2017.06.30-19.13.17:787][477]LogClass:Warning: Type mismatch in nota of SKEL_StaticBoxBP_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2017.06.30-19.13.19:263][559]BlueprintLog: New page: Compile BoxBP
+[2017.06.30-19.13.19:273][559]LogClass:Warning: Type mismatch in nota of SKEL_StaticBoxBP_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2017.06.30-19.13.19:277][559]LogClass:Warning: Type mismatch in nota of BoxBP_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2017.06.30-19.14.52:846][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-19.14.52:878][797]LogSavePackage: Save=20.81ms
+[2017.06.30-19.14.52:878][797]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBPC72BA09E4D6B967188BA3C9E3A26D75F.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-19.14.52:881][797]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-19.14.52:883][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/Notass" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset" SILENT=true
+[2017.06.30-19.14.52:889][797]LogSavePackage: Save=4.11ms
+[2017.06.30-19.14.52:889][797]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/NotassD7215EFE4D1726F6465A48BB54CEF290.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset'
+[2017.06.30-19.14.52:891][797]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset
+[2017.06.30-19.14.53:019][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/StaticBoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/StaticBoxBP.uasset" SILENT=true
+[2017.06.30-19.14.53:047][797]LogSavePackage: Save=16.64ms
+[2017.06.30-19.14.53:047][797]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/StaticBoxBP15B5C6874AB628C10A0AA6B3AA7705D5.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/StaticBoxBP.uasset'
+[2017.06.30-19.14.53:050][797]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/StaticBoxBP.uasset
+[2017.06.30-19.14.57:361][ 48]LogEnum:Warning: In asset 'None', there is an enum property of type 'Notass' with an invalid value of 'Notass::NewEnumerator0'
+[2017.06.30-19.15.03:137][389]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/Notass" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset" SILENT=true
+[2017.06.30-19.15.03:148][389]LogSavePackage: Save=4.50ms
+[2017.06.30-19.15.03:148][389]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Notass5CFE37E94A4CEC565AF1B4873030F9FA.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset'
+[2017.06.30-19.15.03:151][389]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset
+[2017.06.30-19.15.03:932][435]LogEnum:Warning: In asset 'None', there is an enum property of type 'Notass' with an invalid value of 'Notass::NewEnumerator1'
+[2017.06.30-19.15.08:021][676]LogEnum:Warning: In asset 'None', there is an enum property of type 'Notass' with an invalid value of 'Notass::NewEnumerator2'
+[2017.06.30-19.15.11:471][882]LogEnum:Warning: In asset 'None', there is an enum property of type 'Notass' with an invalid value of 'Notass::NewEnumerator3'
+[2017.06.30-19.15.14:620][ 68]LogEnum:Warning: In asset 'None', there is an enum property of type 'Notass' with an invalid value of 'Notass::NewEnumerator4'
+[2017.06.30-19.15.17:386][230]LogEnum:Warning: In asset 'None', there is an enum property of type 'Notass' with an invalid value of 'Notass::NewEnumerator5'
+[2017.06.30-19.15.23:252][578]LogEnum:Warning: In asset 'None', there is an enum property of type 'Notass' with an invalid value of 'Notass::NewEnumerator6'
+[2017.06.30-19.15.26:422][757]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/Notass" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset" SILENT=true
+[2017.06.30-19.15.26:432][757]LogSavePackage: Save=4.71ms
+[2017.06.30-19.15.26:432][757]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Notass6EEB23C64233332C897B94987AFAA2D6.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset'
+[2017.06.30-19.15.26:434][757]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset
+[2017.06.30-19.15.27:538][823]LogEnum:Warning: In asset 'None', there is an enum property of type 'Notass' with an invalid value of 'Notass::NewEnumerator7'
+[2017.06.30-19.15.30:078][962]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/Notass" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset" SILENT=true
+[2017.06.30-19.15.30:088][962]LogSavePackage: Save=4.65ms
+[2017.06.30-19.15.30:088][962]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Notass4C1AA62D4042E23C3554D5B8E887D5E0.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset'
+[2017.06.30-19.15.30:090][962]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset
+[2017.06.30-19.15.30:717][999]LogEnum:Warning: In asset 'None', there is an enum property of type 'Notass' with an invalid value of 'Notass::NewEnumerator8'
+[2017.06.30-19.15.35:250][262]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/Notass" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset" SILENT=true
+[2017.06.30-19.15.35:259][262]LogSavePackage: Save=4.56ms
+[2017.06.30-19.15.35:259][262]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/NotassC05F67564813DDC562A31DA815C7E9A9.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset'
+[2017.06.30-19.15.35:262][262]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset
+[2017.06.30-19.15.36:312][319]LogEnum:Warning: In asset 'None', there is an enum property of type 'Notass' with an invalid value of 'Notass::NewEnumerator9'
+[2017.06.30-19.15.41:376][609]LogEnum:Warning: In asset 'None', there is an enum property of type 'Notass' with an invalid value of 'Notass::NewEnumerator10'
+[2017.06.30-19.15.45:672][855]LogEnum:Warning: In asset 'None', there is an enum property of type 'Notass' with an invalid value of 'Notass::NewEnumerator11'
+[2017.06.30-19.15.49:872][ 91]LogEnum:Warning: In asset 'None', there is an enum property of type 'Notass' with an invalid value of 'Notass::NewEnumerator12'
+[2017.06.30-19.15.53:348][285]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/Notass" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset" SILENT=true
+[2017.06.30-19.15.53:358][285]LogSavePackage: Save=4.89ms
+[2017.06.30-19.15.53:358][285]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Notass995ECAFC42639769CC151181A2C3FA42.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset'
+[2017.06.30-19.15.53:362][285]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset
+[2017.06.30-19.15.54:140][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/Notass" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset" SILENT=true
+[2017.06.30-19.15.54:149][326]LogSavePackage: Save=4.76ms
+[2017.06.30-19.15.54:149][326]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Notass77F3F59C4EA97D296CD34EBB8E188D7C.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset'
+[2017.06.30-19.15.54:151][326]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset
+[2017.06.30-19.16.16:113][443]BlueprintLog: New page: Compile BoxBP
+[2017.06.30-19.16.26:613][991]LogEnum:Warning: In asset 'None', there is an enum property of type 'Notass' with an invalid value of 'Notass::NewEnumerator13'
+[2017.06.30-19.16.32:350][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/Notass" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset" SILENT=true
+[2017.06.30-19.16.32:360][325]LogSavePackage: Save=4.69ms
+[2017.06.30-19.16.32:360][325]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Notass5BE0DB9F4D56059D97798798FA42DBF5.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset'
+[2017.06.30-19.16.32:362][325]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset
+[2017.06.30-19.16.33:007][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/Notass" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset" SILENT=true
+[2017.06.30-19.16.33:015][357]LogSavePackage: Save=4.26ms
+[2017.06.30-19.16.33:015][357]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/NotassC7AA59C746510806CE225CA64DFC9257.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset'
+[2017.06.30-19.16.33:016][357]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset
+[2017.06.30-19.16.44:350][998]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/Notass" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset" SILENT=true
+[2017.06.30-19.16.44:359][998]LogSavePackage: Save=4.27ms
+[2017.06.30-19.16.44:359][998]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/NotassE62B8B1B4F6232BB7C1640A2963C6100.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset'
+[2017.06.30-19.16.44:364][998]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/Notass.uasset
+[2017.06.30-19.16.45:026][ 37]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.30-19.17.55:079][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-19.17.55:105][563]LogSavePackage: Save=20.78ms
+[2017.06.30-19.17.55:105][563]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBPD0889A514A0C0285F1BA7788A7FC7377.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-19.17.55:109][563]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-19.19.55:535][648]LogSavePackage: Save=123.03ms
+[2017.06.30-19.19.55:535][648]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/FirstPersonExampleMap_Auto2567E67594747C2786B564F8961B2BAA9.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2017.06.30-19.19.55:538][648]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap
+[2017.06.30-19.19.55:540][648]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.163
+[2017.06.30-19.19.55:540][648]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.163
+[2017.06.30-19.19.55:542][648]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP] ([1] browsable assets)...
+[2017.06.30-19.19.55:542][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP]
+[2017.06.30-19.19.55:574][648]LogSavePackage: Save=21.20ms
+[2017.06.30-19.19.55:574][648]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBP_Auto295BD985C49F648306919D8AE15A964DB.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP_Auto2.uasset'
+[2017.06.30-19.19.55:575][648]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP_Auto2.uasset
+[2017.06.30-19.19.55:576][648]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/GrappleBP/Musica/Si] ([1] browsable assets)...
+[2017.06.30-19.19.55:582][648]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/FirstPersonBP/GrappleBP/Musica/Si.Si]
+[2017.06.30-19.19.55:582][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/GrappleBP/Musica/Si]
+[2017.06.30-19.19.55:591][648]LogSavePackage: Save=7.33ms
+[2017.06.30-19.19.55:591][648]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Si_Auto24E2D2E0E47BA89443E3D7DA3624B67C9.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Musica/Si_Auto2.uasset'
+[2017.06.30-19.19.55:592][648]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Musica/Si_Auto2.uasset
+[2017.06.30-19.19.55:592][648]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/GrappleBP/Musica/Sib] ([1] browsable assets)...
+[2017.06.30-19.19.55:598][648]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/FirstPersonBP/GrappleBP/Musica/Sib.Sib]
+[2017.06.30-19.19.55:598][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/GrappleBP/Musica/Sib]
+[2017.06.30-19.19.55:607][648]LogSavePackage: Save=7.12ms
+[2017.06.30-19.19.55:607][648]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Sib_Auto255A5501A4DB45279E991EA8704204AAE.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Musica/Sib_Auto2.uasset'
+[2017.06.30-19.19.55:608][648]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Musica/Sib_Auto2.uasset
+[2017.06.30-19.19.55:608][648]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/GrappleBP/Musica/Sol] ([1] browsable assets)...
+[2017.06.30-19.19.55:614][648]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/FirstPersonBP/GrappleBP/Musica/Sol.Sol]
+[2017.06.30-19.19.55:614][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/GrappleBP/Musica/Sol]
+[2017.06.30-19.19.55:623][648]LogSavePackage: Save=7.19ms
+[2017.06.30-19.19.55:623][648]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Sol_Auto289B9C66D4542A78B590AFFBCC12EAAC9.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Musica/Sol_Auto2.uasset'
+[2017.06.30-19.19.55:624][648]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Musica/Sol_Auto2.uasset
+[2017.06.30-19.19.55:624][648]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/GrappleBP/Musica/Solb] ([1] browsable assets)...
+[2017.06.30-19.19.55:630][648]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/FirstPersonBP/GrappleBP/Musica/Solb.Solb]
+[2017.06.30-19.19.55:630][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/GrappleBP/Musica/Solb]
+[2017.06.30-19.19.55:640][648]LogSavePackage: Save=8.22ms
+[2017.06.30-19.19.55:640][648]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Solb_Auto262EC254C4ECBF66E62AE32A0BB7EB4C0.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Musica/Solb_Auto2.uasset'
+[2017.06.30-19.19.55:641][648]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Musica/Solb_Auto2.uasset
+[2017.06.30-19.19.55:641][648]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/GrappleBP/Musica/Lab] ([1] browsable assets)...
+[2017.06.30-19.19.55:647][648]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/FirstPersonBP/GrappleBP/Musica/Lab.Lab]
+[2017.06.30-19.19.55:647][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/GrappleBP/Musica/Lab]
+[2017.06.30-19.19.55:658][648]LogSavePackage: Save=6.84ms
+[2017.06.30-19.19.55:658][648]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Lab_Auto28EC75DA24261B51BDF878CA7252E806F.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Musica/Lab_Auto2.uasset'
+[2017.06.30-19.19.55:659][648]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Musica/Lab_Auto2.uasset
+[2017.06.30-19.19.55:659][648]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/GrappleBP/Musica/Do] ([1] browsable assets)...
+[2017.06.30-19.19.55:665][648]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/FirstPersonBP/GrappleBP/Musica/Do.Do]
+[2017.06.30-19.19.55:665][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/GrappleBP/Musica/Do]
+[2017.06.30-19.19.55:673][648]LogSavePackage: Save=7.12ms
+[2017.06.30-19.19.55:673][648]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Do_Auto2CC9BD0E544D644A4A15E879CEE898073.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Musica/Do_Auto2.uasset'
+[2017.06.30-19.19.55:674][648]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Musica/Do_Auto2.uasset
+[2017.06.30-19.19.55:675][648]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/GrappleBP/Musica/DoGrave] ([1] browsable assets)...
+[2017.06.30-19.19.55:680][648]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/FirstPersonBP/GrappleBP/Musica/DoGrave.DoGrave]
+[2017.06.30-19.19.55:680][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/GrappleBP/Musica/DoGrave]
+[2017.06.30-19.19.55:689][648]LogSavePackage: Save=7.09ms
+[2017.06.30-19.19.55:689][648]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/DoGrave_Auto2FE23980D44042D912AE3E290FFDCE1B3.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Musica/DoGrave_Auto2.uasset'
+[2017.06.30-19.19.55:690][648]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Musica/DoGrave_Auto2.uasset
+[2017.06.30-19.19.55:690][648]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/GrappleBP/Musica/Fa] ([1] browsable assets)...
+[2017.06.30-19.19.55:696][648]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/FirstPersonBP/GrappleBP/Musica/Fa.Fa]
+[2017.06.30-19.19.55:696][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/GrappleBP/Musica/Fa]
+[2017.06.30-19.19.55:706][648]LogSavePackage: Save=7.78ms
+[2017.06.30-19.19.55:706][648]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Fa_Auto29CDF974449F81A676E54CA8981F65ED4.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Musica/Fa_Auto2.uasset'
+[2017.06.30-19.19.55:707][648]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Musica/Fa_Auto2.uasset
+[2017.06.30-19.19.55:707][648]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/GrappleBP/Musica/La] ([1] browsable assets)...
+[2017.06.30-19.19.55:713][648]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/FirstPersonBP/GrappleBP/Musica/La.La]
+[2017.06.30-19.19.55:713][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/GrappleBP/Musica/La]
+[2017.06.30-19.19.55:722][648]LogSavePackage: Save=7.57ms
+[2017.06.30-19.19.55:722][648]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/La_Auto28B061E0646C0CF8B95ADF69487D2311C.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Musica/La_Auto2.uasset'
+[2017.06.30-19.19.55:723][648]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Musica/La_Auto2.uasset
+[2017.06.30-19.19.55:723][648]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/GrappleBP/Musica/Mi] ([1] browsable assets)...
+[2017.06.30-19.19.55:729][648]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/FirstPersonBP/GrappleBP/Musica/Mi.Mi]
+[2017.06.30-19.19.55:729][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/GrappleBP/Musica/Mi]
+[2017.06.30-19.19.55:739][648]LogSavePackage: Save=8.18ms
+[2017.06.30-19.19.55:739][648]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Mi_Auto2D3DC06234FB395745C2B178042FBB100.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Musica/Mi_Auto2.uasset'
+[2017.06.30-19.19.55:739][648]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Musica/Mi_Auto2.uasset
+[2017.06.30-19.19.55:740][648]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/GrappleBP/Musica/Mib] ([1] browsable assets)...
+[2017.06.30-19.19.55:746][648]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/FirstPersonBP/GrappleBP/Musica/Mib.Mib]
+[2017.06.30-19.19.55:746][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/GrappleBP/Musica/Mib]
+[2017.06.30-19.19.55:757][648]LogSavePackage: Save=7.62ms
+[2017.06.30-19.19.55:757][648]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Mib_Auto2C34A2D784641E3AF95CF5CA3FBC58BD6.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Musica/Mib_Auto2.uasset'
+[2017.06.30-19.19.55:757][648]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Musica/Mib_Auto2.uasset
+[2017.06.30-19.19.55:758][648]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/GrappleBP/Musica/Re] ([1] browsable assets)...
+[2017.06.30-19.19.55:764][648]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/FirstPersonBP/GrappleBP/Musica/Re.Re]
+[2017.06.30-19.19.55:764][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/GrappleBP/Musica/Re]
+[2017.06.30-19.19.55:773][648]LogSavePackage: Save=7.59ms
+[2017.06.30-19.19.55:773][648]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Re_Auto2C41A22EC429285DF033E7AA4CF074155.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Musica/Re_Auto2.uasset'
+[2017.06.30-19.19.55:774][648]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Musica/Re_Auto2.uasset
+[2017.06.30-19.19.55:774][648]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/GrappleBP/Musica/Reb] ([1] browsable assets)...
+[2017.06.30-19.19.55:780][648]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/FirstPersonBP/GrappleBP/Musica/Reb.Reb]
+[2017.06.30-19.19.55:780][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/GrappleBP/Musica/Reb]
+[2017.06.30-19.19.55:789][648]LogSavePackage: Save=7.68ms
+[2017.06.30-19.19.55:789][648]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Reb_Auto24CA004104C803D6612DC479F7DD0D91C.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Musica/Reb_Auto2.uasset'
+[2017.06.30-19.19.55:790][648]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Musica/Reb_Auto2.uasset
+[2017.06.30-19.19.55:790][648]LogFileHelpers: Auto-saving content packages took 0.249
+[2017.06.30-19.22.03:470][ 72]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-19.22.03:497][ 72]LogSavePackage: Save=22.26ms
+[2017.06.30-19.22.03:497][ 72]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBP31BC6AED490487F12528D591DEA87BB9.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-19.22.03:505][ 72]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-19.22.09:436][373]BlueprintLog: New page: Compile BoxBP
+[2017.06.30-19.22.47:450][268]LogSavePackage: Save=127.50ms
+[2017.06.30-19.22.47:450][268]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/FirstPersonExampleMap923D6B8047C7888957F3A7B889342546.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.06.30-19.22.47:459][268]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.06.30-19.22.47:492][268]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.254
+[2017.06.30-19.22.47:499][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Musica/Si" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Si.uasset" SILENT=true
+[2017.06.30-19.22.47:509][268]LogSavePackage: Save=7.68ms
+[2017.06.30-19.22.47:509][268]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Si8FEE72C24CCD7480DAF7EDB933193420.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Si.uasset'
+[2017.06.30-19.22.47:515][268]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Si.uasset
+[2017.06.30-19.22.47:650][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Musica/Sib" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Sib.uasset" SILENT=true
+[2017.06.30-19.22.47:659][268]LogSavePackage: Save=7.50ms
+[2017.06.30-19.22.47:659][268]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Sib5C9E994D4C69E88A0193018DBEE140A2.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Sib.uasset'
+[2017.06.30-19.22.47:665][268]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Sib.uasset
+[2017.06.30-19.22.47:786][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Musica/Sol" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Sol.uasset" SILENT=true
+[2017.06.30-19.22.47:795][268]LogSavePackage: Save=7.12ms
+[2017.06.30-19.22.47:795][268]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Sol845F7AA448CFA1FA6573279403CFD618.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Sol.uasset'
+[2017.06.30-19.22.47:802][268]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Sol.uasset
+[2017.06.30-19.22.47:933][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Musica/Solb" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Solb.uasset" SILENT=true
+[2017.06.30-19.22.47:944][268]LogSavePackage: Save=7.36ms
+[2017.06.30-19.22.47:944][268]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Solb1E3B6313471715787D97529B17A8C1BC.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Solb.uasset'
+[2017.06.30-19.22.47:951][268]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Solb.uasset
+[2017.06.30-19.22.48:071][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Musica/Lab" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Lab.uasset" SILENT=true
+[2017.06.30-19.22.48:080][268]LogSavePackage: Save=7.27ms
+[2017.06.30-19.22.48:080][268]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Lab2FA7B7A242D93A3E023E698543BE5F19.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Lab.uasset'
+[2017.06.30-19.22.48:087][268]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Lab.uasset
+[2017.06.30-19.22.48:208][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Musica/Do" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Do.uasset" SILENT=true
+[2017.06.30-19.22.48:218][268]LogSavePackage: Save=7.71ms
+[2017.06.30-19.22.48:218][268]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Do440C2A6447FE32B1D99333AC1B92F87C.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Do.uasset'
+[2017.06.30-19.22.48:225][268]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Do.uasset
+[2017.06.30-19.22.48:350][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Musica/DoGrave" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/DoGrave.uasset" SILENT=true
+[2017.06.30-19.22.48:359][268]LogSavePackage: Save=7.17ms
+[2017.06.30-19.22.48:359][268]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/DoGrave5802AAFE4C18C2C4C35505A3A3B2DD80.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/DoGrave.uasset'
+[2017.06.30-19.22.48:366][268]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/DoGrave.uasset
+[2017.06.30-19.22.48:499][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Musica/Fa" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Fa.uasset" SILENT=true
+[2017.06.30-19.22.48:508][268]LogSavePackage: Save=7.39ms
+[2017.06.30-19.22.48:508][268]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/FaE26BFA884F4D2F73DD0FCEAD7F9D9FAD.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Fa.uasset'
+[2017.06.30-19.22.48:515][268]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Fa.uasset
+[2017.06.30-19.22.48:650][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Musica/La" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/La.uasset" SILENT=true
+[2017.06.30-19.22.48:659][268]LogSavePackage: Save=6.93ms
+[2017.06.30-19.22.48:659][268]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/LaE846EA5443BC268B1479DB9D411FD83B.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/La.uasset'
+[2017.06.30-19.22.48:666][268]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/La.uasset
+[2017.06.30-19.22.48:798][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Musica/Mi" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Mi.uasset" SILENT=true
+[2017.06.30-19.22.48:806][268]LogSavePackage: Save=6.78ms
+[2017.06.30-19.22.48:806][268]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Mi039D95BD41288E672F8A67A1BB4CE141.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Mi.uasset'
+[2017.06.30-19.22.48:814][268]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Mi.uasset
+[2017.06.30-19.22.48:947][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Musica/Mib" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Mib.uasset" SILENT=true
+[2017.06.30-19.22.48:957][268]LogSavePackage: Save=9.05ms
+[2017.06.30-19.22.48:957][268]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/MibEED90F4F4E5F9C54C24B71BA7B9FCE8F.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Mib.uasset'
+[2017.06.30-19.22.48:962][268]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Mib.uasset
+[2017.06.30-19.22.49:094][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Musica/Re" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Re.uasset" SILENT=true
+[2017.06.30-19.22.49:102][268]LogSavePackage: Save=6.82ms
+[2017.06.30-19.22.49:102][268]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Re6DD873434474CF9F97B82D809E4794CA.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Re.uasset'
+[2017.06.30-19.22.49:106][268]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Re.uasset
+[2017.06.30-19.22.49:232][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Musica/Reb" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Reb.uasset" SILENT=true
+[2017.06.30-19.22.49:240][268]LogSavePackage: Save=6.95ms
+[2017.06.30-19.22.49:240][268]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/RebDE7ABFB647556B6A629EA8AB2BFECA2D.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Reb.uasset'
+[2017.06.30-19.22.49:242][268]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Musica/Reb.uasset
+[2017.06.30-19.24.45:227][ 31]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-19.24.45:262][ 31]LogSavePackage: Save=29.49ms
+[2017.06.30-19.24.45:262][ 31]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBP87E7CC934EA560B5CFEC7492A5962196.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-19.24.45:264][ 31]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-19.25.39:535][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-19.25.39:577][738]LogSavePackage: Save=31.41ms
+[2017.06.30-19.25.39:577][738]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBP1ADFBC81422752480D25E4983E586AD5.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-19.25.39:580][738]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-19.25.54:225][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-19.25.54:258][463]LogSavePackage: Save=28.12ms
+[2017.06.30-19.25.54:258][463]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBP475D2CE8476DE099EB8453B5F2BC70F8.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-19.25.54:261][463]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-19.25.58:404][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-19.25.58:439][669]LogSavePackage: Save=30.12ms
+[2017.06.30-19.25.58:439][669]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBP572951994FC9BCBBCFB825BFF14DF4E7.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-19.25.58:442][669]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-19.26.05:284][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-19.26.05:318][  4]LogSavePackage: Save=28.81ms
+[2017.06.30-19.26.05:318][  4]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBP53C6F8D14C84C0CD3E011CA395487350.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-19.26.05:320][  4]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-19.26.37:525][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-19.26.37:558][619]LogSavePackage: Save=28.41ms
+[2017.06.30-19.26.37:558][619]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBP845091D34B35023D11B535A6858C99F4.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-19.26.37:561][619]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-19.26.42:685][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-19.26.42:720][878]LogSavePackage: Save=29.54ms
+[2017.06.30-19.26.42:720][878]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBP0C1639AB448387F18C3CF9AE71305BC2.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-19.26.42:722][878]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-19.26.44:625][976]BlueprintLog: New page: Compile BoxBP
+[2017.06.30-19.26.55:365][349]LogEditorViewport: Clicking on Actor (LMB): StaticBoxBP_C (StaticBoxBP)
+[2017.06.30-19.26.59:058][569]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.30-19.26.59:077][569]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.30-19.26.59:077][569]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.06.30-19.26.59:077][569]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2017.06.30-19.26.59:165][569]LogPlayLevel: PlayLevel: Blueprint regeneration took 87 ms (1 blueprints)
+[2017.06.30-19.26.59:165][569]PIE: New page: PIE session: FirstPersonExampleMap (30 Jun 2017 21:26:59)
+[2017.06.30-19.26.59:165][569]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.06.30-19.26.59:186][569]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021084s)
+[2017.06.30-19.26.59:187][569]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.30-19.26.59:188][569]LogPlayLevel: PIE: World Init took: (0.001431s)
+[2017.06.30-19.26.59:188][569]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022749s)
+[2017.06.30-19.26.59:206][569]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.30-19.26.59:219][569]LogInit: FAudioDevice initialized.
+[2017.06.30-19.26.59:251][569]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.30-19.26.59:253][569]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.06.30-20.26.59
+[2017.06.30-19.26.59:254][569]LogWorld: Bringing up level for play took: 0.001475
+[2017.06.30-19.26.59:257][569]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.683
+[2017.06.30-19.26.59:257][569]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.30-19.27.10:338][232]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.30-19.27.10:382][232]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.30-19.27.22:449][837]LogEditorTransaction: Undo Paste clipboard contents
+[2017.06.30-19.27.23:403][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-19.27.23:437][873]LogSavePackage: Save=29.22ms
+[2017.06.30-19.27.23:437][873]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBP2A102B4145A853A046C2B6A960AAF597.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-19.27.23:443][873]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-19.27.24:176][910]BlueprintLog: New page: Compile BoxBP
+[2017.06.30-19.27.26:203][  4]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.30-19.27.26:217][  4]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.30-19.27.26:217][  4]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.30-19.27.26:217][  4]PIE: New page: PIE session: FirstPersonExampleMap (30 Jun 2017 21:27:26)
+[2017.06.30-19.27.26:217][  4]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.06.30-19.27.26:240][  4]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022643s)
+[2017.06.30-19.27.26:241][  4]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.30-19.27.26:241][  4]LogPlayLevel: PIE: World Init took: (0.001081s)
+[2017.06.30-19.27.26:241][  4]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024038s)
+[2017.06.30-19.27.26:261][  4]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.30-19.27.26:274][  4]LogInit: FAudioDevice initialized.
+[2017.06.30-19.27.26:307][  4]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.30-19.27.26:309][  4]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.06.30-20.27.26
+[2017.06.30-19.27.26:310][  4]LogWorld: Bringing up level for play took: 0.001318
+[2017.06.30-19.27.26:312][  4]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.373
+[2017.06.30-19.27.26:312][  4]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.30-19.27.30:788][271]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.30-19.27.30:841][271]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.30-19.27.45:820][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-19.27.45:853][ 77]LogSavePackage: Save=28.43ms
+[2017.06.30-19.27.45:853][ 77]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBP9EEEFC2C4322F326A64766B1223576E7.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-19.27.45:856][ 77]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-19.27.47:520][172]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.30-19.27.47:535][172]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.30-19.27.47:535][172]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.30-19.27.47:535][172]PIE: New page: PIE session: FirstPersonExampleMap (30 Jun 2017 21:27:47)
+[2017.06.30-19.27.47:535][172]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.06.30-19.27.47:553][172]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018091s)
+[2017.06.30-19.27.47:554][172]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.30-19.27.47:554][172]LogPlayLevel: PIE: World Init took: (0.000940s)
+[2017.06.30-19.27.47:554][172]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019315s)
+[2017.06.30-19.27.47:582][172]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.30-19.27.47:594][172]LogInit: FAudioDevice initialized.
+[2017.06.30-19.27.47:624][172]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.30-19.27.47:626][172]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.06.30-20.27.47
+[2017.06.30-19.27.47:627][172]LogWorld: Bringing up level for play took: 0.001327
+[2017.06.30-19.27.47:908][172]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.03
+[2017.06.30-19.27.47:908][172]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.30-19.27.48:815][225]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_Event', from offset 75
+[2017.06.30-19.27.48:815][225]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/FirstPersonBP/GrappleBP/Boxes/BoxBP.BoxBP_C:ReceiveHit
+	Function /Game/FirstPersonBP/GrappleBP/Boxes/BoxBP.BoxBP_C:ExecuteUbergraph_BoxBP
+
+[2017.06.30-19.28.09:207][226]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.077400 > MaxSimulationTimeStep (0.050) for 'FirstPersonCharacter_C_0', movement 'Walking'
+[2017.06.30-19.28.12:735][438]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.30-19.28.12:790][438]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.30-19.28.20:975][874]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.30-19.28.20:989][874]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.30-19.28.20:989][874]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.30-19.28.20:989][874]PIE: New page: PIE session: FirstPersonExampleMap (30 Jun 2017 21:28:20)
+[2017.06.30-19.28.20:989][874]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.06.30-19.28.21:010][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020618s)
+[2017.06.30-19.28.21:010][874]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.30-19.28.21:011][874]LogPlayLevel: PIE: World Init took: (0.001016s)
+[2017.06.30-19.28.21:011][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021963s)
+[2017.06.30-19.28.21:030][874]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.30-19.28.21:042][874]LogInit: FAudioDevice initialized.
+[2017.06.30-19.28.21:072][874]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.30-19.28.21:074][874]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.06.30-20.28.21
+[2017.06.30-19.28.21:074][874]LogWorld: Bringing up level for play took: 0.001396
+[2017.06.30-19.28.21:347][874]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.59
+[2017.06.30-19.28.21:347][874]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.30-19.28.22:437][938]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_Event', from offset 75
+[2017.06.30-19.28.22:437][938]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/FirstPersonBP/GrappleBP/Boxes/BoxBP.BoxBP_C:ReceiveHit
+	Function /Game/FirstPersonBP/GrappleBP/Boxes/BoxBP.BoxBP_C:ExecuteUbergraph_BoxBP
+
+[2017.06.30-19.29.06:366][938]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.30-19.29.06:425][938]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.30-19.29.13:803][275]LogEditorTransaction: Undo Create Pin Link
+[2017.06.30-19.29.44:019][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-19.29.44:054][661]LogSavePackage: Save=28.90ms
+[2017.06.30-19.29.44:054][661]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBP5BA845534E8FAD1208179FAD3F01EB23.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-19.29.44:057][661]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-19.29.52:519][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-19.29.52:553][ 52]LogSavePackage: Save=28.30ms
+[2017.06.30-19.29.52:553][ 52]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBP790F985C4B6FC06E96BD65B8244033BA.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-19.29.52:555][ 52]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-19.29.57:033][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-19.29.57:066][258]LogSavePackage: Save=28.08ms
+[2017.06.30-19.29.57:066][258]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBP5814AD2A422ECEC9261E3D9E4C0B249F.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-19.29.57:069][258]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-19.29.59:416][363]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-19.29.59:448][363]LogSavePackage: Save=27.12ms
+[2017.06.30-19.29.59:448][363]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBP5FBEBA244ED9F84ABE4EBAAB257BE92C.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-19.29.59:451][363]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-19.30.00:050][392]BlueprintLog: New page: Compile BoxBP
+[2017.06.30-19.30.03:226][538]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.30-19.30.03:241][538]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.30-19.30.03:241][538]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.30-19.30.03:241][538]PIE: New page: PIE session: FirstPersonExampleMap (30 Jun 2017 21:30:03)
+[2017.06.30-19.30.03:241][538]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.06.30-19.30.03:264][538]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022060s)
+[2017.06.30-19.30.03:264][538]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.30-19.30.03:265][538]LogPlayLevel: PIE: World Init took: (0.001040s)
+[2017.06.30-19.30.03:265][538]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023351s)
+[2017.06.30-19.30.03:286][538]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.30-19.30.03:299][538]LogInit: FAudioDevice initialized.
+[2017.06.30-19.30.03:331][538]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.30-19.30.03:333][538]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.06.30-20.30.03
+[2017.06.30-19.30.03:334][538]LogWorld: Bringing up level for play took: 0.001399
+[2017.06.30-19.30.03:336][538]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.596
+[2017.06.30-19.30.03:336][538]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.30-19.30.04:082][581]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_Event', from offset 75
+[2017.06.30-19.30.04:082][581]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/FirstPersonBP/GrappleBP/Boxes/BoxBP.BoxBP_C:ReceiveHit
+	Function /Game/FirstPersonBP/GrappleBP/Boxes/BoxBP.BoxBP_C:ExecuteUbergraph_BoxBP
+
+[2017.06.30-19.30.11:935][581]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 184
+[2017.06.30-19.30.11:935][581]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/FirstPersonBP/GrappleBP/Boxes/BoxBP.BoxBP_C:ReceiveHit
+	Function /Game/FirstPersonBP/GrappleBP/Boxes/BoxBP.BoxBP_C:ExecuteUbergraph_BoxBP
+
+[2017.06.30-19.30.17:659][767]LogBlueprintUserMessages: [StaticBoxBP_224] Caja con emociones
+[2017.06.30-19.30.21:593][994]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-19.30.21:628][994]LogSavePackage: Save=28.53ms
+[2017.06.30-19.30.21:628][994]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBP71A94B1C40359DE5B6F29FB4D9D1BF03.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-19.30.21:630][994]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-19.30.22:920][ 71]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.30-19.30.22:978][ 71]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.30-19.30.24:999][167]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.30-19.30.25:013][167]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.30-19.30.25:013][167]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.30-19.30.25:013][167]PIE: New page: PIE session: FirstPersonExampleMap (30 Jun 2017 21:30:25)
+[2017.06.30-19.30.25:014][167]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.06.30-19.30.25:033][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019118s)
+[2017.06.30-19.30.25:033][167]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.30-19.30.25:033][167]LogPlayLevel: PIE: World Init took: (0.000766s)
+[2017.06.30-19.30.25:034][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020121s)
+[2017.06.30-19.30.25:059][167]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.30-19.30.25:072][167]LogInit: FAudioDevice initialized.
+[2017.06.30-19.30.25:103][167]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.30-19.30.25:105][167]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.06.30-20.30.25
+[2017.06.30-19.30.25:105][167]LogWorld: Bringing up level for play took: 0.001320
+[2017.06.30-19.30.25:108][167]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.824
+[2017.06.30-19.30.25:108][167]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.30-19.30.29:206][411]LogBlueprintUserMessages: [StaticBoxBP_224] Caja con emociones
+[2017.06.30-19.30.34:440][725]LogBlueprintUserMessages: [StaticBoxBP_224] Caja con emociones
+[2017.06.30-19.30.42:424][204]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.30-19.30.42:469][204]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.30-19.30.55:665][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-19.30.55:703][854]LogSavePackage: Save=27.04ms
+[2017.06.30-19.30.55:703][854]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBP11EBD13E4E45E563086579908226D377.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-19.30.55:706][854]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-19.30.56:212][880]BlueprintLog: New page: Compile BoxBP
+[2017.06.30-19.30.57:768][952]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.30-19.30.57:781][952]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.30-19.30.57:781][952]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.30-19.30.57:781][952]PIE: New page: PIE session: FirstPersonExampleMap (30 Jun 2017 21:30:57)
+[2017.06.30-19.30.57:781][952]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.06.30-19.30.57:799][952]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017732s)
+[2017.06.30-19.30.57:800][952]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.30-19.30.57:800][952]LogPlayLevel: PIE: World Init took: (0.001090s)
+[2017.06.30-19.30.57:800][952]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019149s)
+[2017.06.30-19.30.57:818][952]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.30-19.30.57:830][952]LogInit: FAudioDevice initialized.
+[2017.06.30-19.30.57:863][952]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.30-19.30.57:865][952]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.06.30-20.30.57
+[2017.06.30-19.30.57:865][952]LogWorld: Bringing up level for play took: 0.001400
+[2017.06.30-19.30.57:868][952]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.063
+[2017.06.30-19.30.57:868][952]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.30-19.31.00:079][ 83]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.30-19.31.00:136][ 83]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.30-19.31.04:814][352]LogEditorViewport: Clicking on Actor (LMB): StaticBoxBP_C (StaticBoxBP)
+[2017.06.30-19.31.08:692][566]LogSavePackage: Save=121.67ms
+[2017.06.30-19.31.08:692][566]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/FirstPersonExampleMapC168321E43B5CDFD36C188B6F3A9AF3B.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.06.30-19.31.08:695][566]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.06.30-19.31.09:698][566]LogSavePackage: Save=898.04ms
+[2017.06.30-19.31.09:698][566]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/FirstPersonExampleMap_BuiltData110012214EC95325C2084E9041D6CA2E.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.06.30-19.31.09:700][566]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
