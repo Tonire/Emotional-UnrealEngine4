@@ -1,9 +1,9 @@
-﻿Log file open, 06/30/17 16:12:05
+﻿Log file open, 06/30/17 17:27:11
 LogInit:Display: Running engine for game: bep
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-189922367) SRandInit(-189922367).
+LogInit:Display: RandInit(1751231292) SRandInit(1751231292).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.076910
+LogStats: Stats thread started at 0.077704
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -48,157 +48,340 @@ LogInit: Base directory: D:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.06.30-15.12.06:895][  0]LogInit: Selected Device Profile: [Windows]
-[2017.06.30-15.12.06:895][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.06.30-15.12.06:912][  0]LogInit: Computer: TONIMSI
-[2017.06.30-15.12.06:912][  0]LogInit: User: tonir
-[2017.06.30-15.12.06:912][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.06.30-15.12.06:912][  0]LogInit: High frequency timer resolution =2.338342 MHz
-[2017.06.30-15.12.06:912][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.06.30-15.12.06:912][  0]LogMemory: Platform Memory Stats for Windows
-[2017.06.30-15.12.06:912][  0]LogMemory: Process Physical Memory: 263.85 MB used, 263.85 MB peak
-[2017.06.30-15.12.06:912][  0]LogMemory: Process Virtual Memory: 262.39 MB used, 262.39 MB peak
-[2017.06.30-15.12.06:912][  0]LogMemory: Physical Memory: 4229.08 MB used,  3882.58 MB free, 8111.66 MB total
-[2017.06.30-15.12.06:912][  0]LogMemory: Virtual Memory: 645.11 MB used,  3882.58 MB free, 134217728.00 MB total
-[2017.06.30-15.12.06:980][  0]LogInit: Overriding culture en-GB with editor configuration.
-[2017.06.30-15.12.06:984][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
-[2017.06.30-15.12.07:809][  0]LogD3D11RHI: D3D11 adapters:
-[2017.06.30-15.12.07:851][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 750M' (Feature Level 11_0)
-[2017.06.30-15.12.07:851][  0]LogD3D11RHI:       2020/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.06.30-15.12.07:858][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2017.06.30-15.12.07:858][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.06.30-15.12.07:859][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.06.30-15.12.07:859][  0]LogD3D11RHI:       0/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.06.30-15.12.07:859][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.06.30-15.12.07:866][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.06.30-15.12.07:866][  0]LogD3D11RHI:     GPU DeviceId: 0xfe4 (for the marketing name, search the web for "GPU Device Id")
-[2017.06.30-15.12.07:866][  0]LogWindows: EnumDisplayDevices:
-[2017.06.30-15.12.07:866][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
-[2017.06.30-15.12.07:866][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.06.30-15.12.07:866][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.06.30-15.12.07:866][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.06.30-15.12.07:866][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 750M
-[2017.06.30-15.12.07:866][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.06.30-15.12.07:866][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.06.30-15.12.07:866][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.06.30-15.12.07:899][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
-[2017.06.30-15.12.07:901][  0]LogD3D11RHI: Async texture creation enabled
-[2017.06.30-15.12.07:921][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.06.30-15.12.07:922][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (C:/Users/tonir/Documents/Unreal Projects/bep/bep/Intermediate/Shaders/WorkingDirectory/13540/).
-[2017.06.30-15.12.07:922][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tonir/AppData/Local/Temp/UnrealShaderWorkingDir/D9B8982E4F4868A974DB9D9B8ED119AD/'.
-[2017.06.30-15.12.07:922][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.06.30-15.12.09:113][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.06.30-15.12.09:175][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.06.30-15.12.09:246][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.06.30-15.12.09:309][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.06.30-15.12.09:366][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.06.30-15.12.09:421][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.06.30-15.12.09:480][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.06.30-15.12.09:538][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.06.30-15.12.09:583][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.06.30-15.12.09:636][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.06.30-15.12.09:691][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.06.30-15.12.09:749][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.06.30-15.12.09:799][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.06.30-15.12.09:855][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.06.30-15.12.09:916][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.06.30-15.12.10:023][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.06.30-15.12.10:023][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.06.30-15.12.10:082][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.06.30-15.12.10:171][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.06.30-15.12.10:201][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.06.30-15.12.10:253][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.06.30-15.12.10:310][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.06.30-15.12.10:370][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.06.30-15.12.10:424][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.06.30-15.12.10:424][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.06.30-15.12.10:787][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.06.30-15.12.10:845][  0]LogDerivedDataCache: Loaded boot cache 0.06s 50MB C:/Users/tonir/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.06.30-15.12.10:845][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/tonir/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
-[2017.06.30-15.12.10:845][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/tonir/Documents/Unreal Projects/bep/bep/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.06.30-15.12.10:845][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.06.30-15.12.10:845][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/tonir/Documents/Unreal Projects/bep/bep/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.06.30-15.12.10:845][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.06.30-15.12.10:864][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.06.30-15.12.10:877][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tonir/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.06.30-15.12.10:887][  0]LogSlate: Using Freetype 2.6.0
-[2017.06.30-15.12.10:887][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.06.30-15.12.10:887][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.06.30-15.12.13:395][  0]LogInit: Selected Device Profile: [Windows]
-[2017.06.30-15.12.13:509][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.06.30-15.12.14:423][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.06.30-15.12.14:476][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.06.30-15.12.14:543][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.06.30-15.12.14:543][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.06.30-15.12.14:543][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.06.30-15.12.20:413][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: bep, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2828776786
-[2017.06.30-15.12.20:572][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
-[2017.06.30-15.12.20:696][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.060654 seconds
-[2017.06.30-15.12.20:725][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
-[2017.06.30-15.12.20:725][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
-[2017.06.30-15.12.20:725][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.06.30-15.12.20:810][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.06.30-15.12.32:996][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.06.30-15.12.33:050][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.06.30-15.12.35:251][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.06.30-15.12.36:109][  0]SourceControl: Info Source control is disabled
-[2017.06.30-15.12.36:124][  0]SourceControl: Info Source control is disabled
-[2017.06.30-15.12.36:212][  0]SourceControl: Info Source control is disabled
-[2017.06.30-15.12.36:279][  0]SourceControl: Info Source control is disabled
-[2017.06.30-15.12.38:706][  0]LogEngine: Initializing Engine...
-[2017.06.30-15.12.38:728][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.06.30-15.12.39:291][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.06.30-15.12.39:296][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.06.30-15.12.39:837][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.06.30-15.12.40:026][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.30-15.12.40:053][  0]LogInit: FAudioDevice initialized.
-[2017.06.30-15.12.40:093][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB C:/Users/tonir/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.06.30-15.12.40:105][  0]LogInit: Texture streaming: Enabled
-[2017.06.30-15.12.40:236][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.06.30-15.12.40:447][  0]LogInit: Transaction tracking system initialized
-[2017.06.30-15.12.41:016][  0]BlueprintLog: New page: Editor Load
-[2017.06.30-15.12.42:674][  0]LocalizationService: Info Localization service is disabled
-[2017.06.30-15.12.43:980][  0]LogConsoleResponse:Display: 
-[2017.06.30-15.12.45:764][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/' took 0.02s
-[2017.06.30-15.12.45:764][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.06.30-15.12.45:765][  0]LogCook:Display: Mobile HDR setting 1
-[2017.06.30-15.12.48:094][  0]SourceControl: Info Source control is disabled
-[2017.06.30-15.12.48:145][  0]Cmd: MAP LOAD FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.06.30-15.12.48:169][  0]LightingResults: New page: Lighting Build
-[2017.06.30-15.12.48:324][  0]MapCheck: New page: Map Check
-[2017.06.30-15.12.48:324][  0]LightingResults: New page: Lighting Build
-[2017.06.30-15.12.50:658][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.06.30-15.12.51:327][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.06.30-15.12.51:406][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.06.30-15.12.51:467][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.851ms to complete.
-[2017.06.30-15.12.51:467][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 3.337
-[2017.06.30-15.12.52:879][  0]LogCollectionManager: Loaded 0 collections in 0.002078 seconds
-[2017.06.30-15.12.53:043][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Collections/' took 0.01s
-[2017.06.30-15.12.53:043][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/Developers/tonir/Collections/' took 0.01s
-[2017.06.30-15.12.53:043][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/Collections/' took 0.01s
-[2017.06.30-15.12.53:043][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000008 seconds
-[2017.06.30-15.12.53:070][  0]LogContentBrowser: Native class hierarchy populated in 0.0132 seconds. Added 2245 classes and 453 folders.
-[2017.06.30-15.12.53:201][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.06.30-15.12.55:248][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.06.30-15.12.55:358][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.06.30-15.12.56:141][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.06.30-15.12.56:258][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.06.30-15.12.56:402][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
-[2017.06.30-15.12.56:403][  0]LogLoad: (Engine Initialization) Total time: 51.63 seconds
-[2017.06.30-15.12.56:403][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.01 seconds
-[2017.06.30-15.12.56:403][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.06.30-15.12.56:403][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.06.30-15.12.56:756][  0]LogOcInput: OculusInput pre-init called
-[2017.06.30-15.12.56:839][  0]LogContentStreaming: Texture pool size now 3000 MB
-[2017.06.30-15.12.56:841][  0]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.06.30-15.12.56:844][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.06.30-15.12.56:849][  0]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.06.30-15.12.57:314][  0]LogRenderer: Reallocating scene render targets to support 1208x628 NumSamples 1 (Frame:2).
-[2017.06.30-15.12.57:314][  0]LogSlate: Took 0.038351 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.06.30-15.12.57:864][  2]LogAssetRegistry: Asset discovery search completed in 37.3148 seconds
-[2017.06.30-15.12.57:864][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
-[2017.06.30-15.12.57:864][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
-[2017.06.30-15.17.38:107][436]LogRenderer: Reallocating scene render targets to support 1220x628 NumSamples 1 (Frame:16285).
-[2017.06.30-15.17.38:162][437]LogRenderer: Reallocating scene render targets to support 1236x628 NumSamples 1 (Frame:16287).
-[2017.06.30-15.17.38:219][438]LogRenderer: Reallocating scene render targets to support 1268x628 NumSamples 1 (Frame:16289).
-[2017.06.30-15.17.38:303][439]LogRenderer: Reallocating scene render targets to support 1280x628 NumSamples 1 (Frame:16291).
+[2017.06.30-16.27.12:574][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.30-16.27.12:574][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.30-16.27.12:632][  0]LogInit: Computer: TONIMSI
+[2017.06.30-16.27.12:632][  0]LogInit: User: tonir
+[2017.06.30-16.27.12:632][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.06.30-16.27.12:632][  0]LogInit: High frequency timer resolution =2.338342 MHz
+[2017.06.30-16.27.12:632][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.06.30-16.27.12:632][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.30-16.27.12:632][  0]LogMemory: Process Physical Memory: 264.04 MB used, 264.04 MB peak
+[2017.06.30-16.27.12:632][  0]LogMemory: Process Virtual Memory: 262.39 MB used, 262.39 MB peak
+[2017.06.30-16.27.12:632][  0]LogMemory: Physical Memory: 4778.00 MB used,  3333.66 MB free, 8111.66 MB total
+[2017.06.30-16.27.12:632][  0]LogMemory: Virtual Memory: 645.11 MB used,  3333.66 MB free, 134217728.00 MB total
+[2017.06.30-16.27.12:855][  0]LogInit: Overriding culture en-GB with editor configuration.
+[2017.06.30-16.27.12:948][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2017.06.30-16.27.15:996][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.30-16.27.16:053][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 750M' (Feature Level 11_0)
+[2017.06.30-16.27.16:053][  0]LogD3D11RHI:       2020/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.30-16.27.16:058][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.06.30-16.27.16:058][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.06.30-16.27.16:059][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.30-16.27.16:059][  0]LogD3D11RHI:       0/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.30-16.27.16:059][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.30-16.27.16:065][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.30-16.27.16:065][  0]LogD3D11RHI:     GPU DeviceId: 0xfe4 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.30-16.27.16:065][  0]LogWindows: EnumDisplayDevices:
+[2017.06.30-16.27.16:065][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.06.30-16.27.16:066][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.06.30-16.27.16:066][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.06.30-16.27.16:066][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.06.30-16.27.16:066][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 750M
+[2017.06.30-16.27.16:066][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.06.30-16.27.16:066][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.06.30-16.27.16:066][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.30-16.27.16:098][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.06.30-16.27.16:099][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.30-16.27.16:115][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.06.30-16.27.16:115][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (C:/Users/tonir/Documents/Unreal Projects/bep/bep/Intermediate/Shaders/WorkingDirectory/6052/).
+[2017.06.30-16.27.16:115][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tonir/AppData/Local/Temp/UnrealShaderWorkingDir/ED705AD74D86A0AC1FCE68976219F945/'.
+[2017.06.30-16.27.16:116][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.30-16.27.19:709][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.30-16.27.19:766][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.30-16.27.19:823][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.30-16.27.19:877][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.30-16.27.19:952][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.30-16.27.20:010][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.30-16.27.20:062][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.30-16.27.20:115][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.30-16.27.20:182][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.30-16.27.20:269][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.30-16.27.20:334][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.30-16.27.20:390][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.30-16.27.20:460][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.30-16.27.20:518][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.30-16.27.20:569][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.30-16.27.20:681][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.30-16.27.20:681][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.30-16.27.20:724][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.30-16.27.20:861][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.30-16.27.20:891][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.30-16.27.20:956][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.30-16.27.21:009][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.30-16.27.21:069][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.30-16.27.21:143][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.30-16.27.21:143][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.30-16.27.21:995][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.30-16.27.22:210][  0]LogDerivedDataCache: Loaded boot cache 0.21s 50MB C:/Users/tonir/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.30-16.27.22:211][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/tonir/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.06.30-16.27.22:211][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/tonir/Documents/Unreal Projects/bep/bep/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.30-16.27.22:211][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.30-16.27.22:211][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/tonir/Documents/Unreal Projects/bep/bep/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.30-16.27.22:211][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.30-16.27.22:241][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.30-16.27.22:252][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tonir/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.30-16.27.22:263][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.30-16.27.22:282][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.30-16.27.22:282][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.30-16.27.28:398][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.30-16.27.28:401][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.30-16.27.28:635][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.30-16.27.28:709][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.30-16.27.28:759][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.30-16.27.28:759][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.30-16.27.28:759][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.30-16.27.29:422][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: bep, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2828776786
+[2017.06.30-16.27.29:475][  0]LogAssetRegistry: FAssetRegistry took 0.0215 seconds to start up
+[2017.06.30-16.27.29:518][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.027997 seconds
+[2017.06.30-16.27.29:524][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.06.30-16.27.29:524][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.06.30-16.27.29:524][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.30-16.27.29:568][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.30-16.27.38:392][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.30-16.27.38:438][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.30-16.27.39:069][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.30-16.27.39:474][  0]SourceControl: Info Source control is disabled
+[2017.06.30-16.27.39:475][  0]SourceControl: Info Source control is disabled
+[2017.06.30-16.27.39:539][  0]SourceControl: Info Source control is disabled
+[2017.06.30-16.27.39:602][  0]SourceControl: Info Source control is disabled
+[2017.06.30-16.27.41:386][  0]LogEngine: Initializing Engine...
+[2017.06.30-16.27.41:386][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.30-16.27.41:515][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.30-16.27.41:515][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.30-16.27.41:627][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.30-16.27.41:633][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.30-16.27.41:650][  0]LogInit: FAudioDevice initialized.
+[2017.06.30-16.27.41:681][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/tonir/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.30-16.27.41:690][  0]LogInit: Texture streaming: Enabled
+[2017.06.30-16.27.41:799][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.30-16.27.41:927][  0]LogInit: Transaction tracking system initialized
+[2017.06.30-16.27.42:266][  0]BlueprintLog: New page: Editor Load
+[2017.06.30-16.27.43:394][  0]LocalizationService: Info Localization service is disabled
+[2017.06.30-16.27.44:509][  0]LogConsoleResponse:Display: 
+[2017.06.30-16.27.45:116][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.30-16.27.45:116][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.30-16.27.45:652][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/' took 0.02s
+[2017.06.30-16.27.46:649][  0]SourceControl: Info Source control is disabled
+[2017.06.30-16.27.46:649][  0]Cmd: MAP LOAD FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.30-16.27.46:649][  0]LightingResults: New page: Lighting Build
+[2017.06.30-16.27.46:682][  0]MapCheck: New page: Map Check
+[2017.06.30-16.27.46:682][  0]LightingResults: New page: Lighting Build
+[2017.06.30-16.27.47:817][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.30-16.27.47:857][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.30-16.27.47:857][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.30-16.27.47:910][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.249ms to complete.
+[2017.06.30-16.27.47:910][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.261
+[2017.06.30-16.27.48:148][  0]LogCollectionManager: Loaded 0 collections in 0.001494 seconds
+[2017.06.30-16.27.48:219][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Collections/' took 0.01s
+[2017.06.30-16.27.48:219][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/Developers/tonir/Collections/' took 0.01s
+[2017.06.30-16.27.48:219][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/Collections/' took 0.01s
+[2017.06.30-16.27.48:219][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.06.30-16.27.48:228][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2245 classes and 453 folders.
+[2017.06.30-16.27.48:279][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.30-16.27.49:134][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.06.30-16.27.49:195][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.30-16.27.49:326][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.30-16.27.49:332][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.30-16.27.49:406][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.30-16.27.49:407][  0]LogLoad: (Engine Initialization) Total time: 40.98 seconds
+[2017.06.30-16.27.49:407][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.23 seconds
+[2017.06.30-16.27.49:407][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.30-16.27.49:407][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.30-16.27.49:418][  0]LogOcInput: OculusInput pre-init called
+[2017.06.30-16.27.49:441][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2017.06.30-16.27.49:459][  0]LogSlate: Took 0.017727 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.30-16.27.49:489][  0]LogSlate: Took 0.023048 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.30-16.27.49:517][  0]LogSlate: Took 0.022819 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.30-16.27.49:689][  0]LogSlate: Took 0.016403 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.30-16.27.49:727][  0]LogRenderer: Reallocating scene render targets to support 1280x628 NumSamples 1 (Frame:2).
+[2017.06.30-16.27.49:793][  1]LogAssetRegistry: Asset discovery search completed in 20.3402 seconds
+[2017.06.30-16.27.49:793][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000012 seconds (found 0 objects)
+[2017.06.30-16.27.49:793][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
+[2017.06.30-16.28.55:209][773]LogBlueprint:Error: [Compiler Grapple_ActorBP] Error Message node  Invalid Message Node  has an invalid interface.
+[2017.06.30-16.28.55:209][773]LogBlueprint:Warning: [Compiler Grapple_ActorBP] Warning Can't connect pins  Hit Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.06.30-16.28.55:210][773]LogBlueprint:Error: [Compiler Grapple_ActorBP] Error Could not find a function named "HookToPlatform" in 'Grapple_ActorBP'.
+Make sure 'Grapple_ActorBP' has been compiled for  Invalid Message Node
+[2017.06.30-16.28.55:210][773]LogBlueprint:Warning: [Compiler Grapple_ActorBP] Warning Can't connect pins  Object  and  Hit Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.06.30-16.28.55:210][773]LogBlueprint:Error: [Compiler Grapple_ActorBP] Error Message node  Invalid Message Node  has an invalid interface.
+[2017.06.30-16.28.55:211][773]LogBlueprint:Warning: [Compiler Grapple_ActorBP] Warning Can't connect pins  Hit Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.06.30-16.28.55:211][773]LogBlueprint:Warning: [Compiler Grapple_ActorBP] Warning Can't connect pins  Object  and  Hit Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.06.30-16.28.55:211][773]LogBlueprint:Error: [Compiler Grapple_ActorBP] Error Could not find a function named "HookToPlatform" in 'Grapple_ActorBP'.
+Make sure 'Grapple_ActorBP' has been compiled for  Invalid Message Node
+[2017.06.30-16.28.55:216][773]LogBlueprint:Warning: [Compiler Grapple_ActorBP] Warning [0106.79] Compile of Grapple_ActorBP failed. 4 Fatal Issue(s) 4 Warning(s) [in 10 ms] (/Game/GrappleBP/Grapple_ActorBP.Grapple_ActorBP)
+[2017.06.30-16.28.55:216][773]LogBlueprint:Warning: [Compiler Grapple_ActorBP] Warning [0106.79] Compile of Grapple_ActorBP failed. 4 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/GrappleBP/Grapple_ActorBP.Grapple_ActorBP)
+[2017.06.30-16.28.55:216][773]LogBlueprint:Warning: [Compiler Grapple_ActorBP] Warning [0106.79] Compile of Grapple_ActorBP failed. 4 Fatal Issue(s) 6 Warning(s) [in 0 ms] (/Game/GrappleBP/Grapple_ActorBP.Grapple_ActorBP)
+[2017.06.30-16.29.05:876][906]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.Grapple_ActorBP_C' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.Grapple_ActorBP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.Grapple_ActorBP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.Grapple_ActorBP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.Grapple_ActorBP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.Grapple_ActorBP:LaunchGrapple.K2Node_FunctionEntry_5' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.Grapple_ActorBP:SwingPlayer.K2Node_FunctionEntry_4' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.Grapple_ActorBP:StopGrapple.K2Node_FunctionEntry_0' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.Grapple_ActorBP:MoveRope.K2Node_FunctionEntry_1' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.Grapple_ActorBP:MovePlayer.K2Node_FunctionEntry_2' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.Grapple_ActorBP:isHooked.K2Node_FunctionEntry_3' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.Grapple_ActorBP_C:ShouldSwing' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.Grapple_ActorBP:CheckIfCanHook.K2Node_FunctionEntry_6' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.SKEL_Grapple_ActorBP_C:ShouldSwing' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.SKEL_Grapple_ActorBP_C:Target' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.SKEL_Grapple_ActorBP_C:PlayerSpeed' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.SKEL_Grapple_ActorBP_C:HookLocation' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.SKEL_Grapple_ActorBP_C:GrappleDistance' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.SKEL_Grapple_ActorBP_C:HookMovingFinished' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.SKEL_Grapple_ActorBP_C:Hooked' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.SKEL_Grapple_ActorBP_C:PlayerReference' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.SKEL_Grapple_ActorBP_C:DefaultSceneRoot' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.SKEL_Grapple_ActorBP_C:Grapple' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.SKEL_Grapple_ActorBP_C:UserConstructionScript' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.SKEL_Grapple_ActorBP_C' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.Grapple_ActorBP_C:Target' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.Grapple_ActorBP_C:PlayerSpeed' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.Grapple_ActorBP_C:HookLocation' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.Grapple_ActorBP_C:GrappleDistance' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.Grapple_ActorBP_C:HookMovingFinished' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.Grapple_ActorBP_C:Hooked' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.Grapple_ActorBP_C:PlayerReference' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.Grapple_ActorBP_C:DefaultSceneRoot' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.Grapple_ActorBP_C:Grapple' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:947][906]LogMetaData: Removing '/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.Grapple_ActorBP_C:UserConstructionScript' ref from Metadata '/Game/GrappleBP/Grapple_ActorBP.PackageMetaData'
+[2017.06.30-16.29.05:963][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Grapple_ActorBP.uasset" SILENT=true
+[2017.06.30-16.29.06:019][906]LogSavePackage: Save=53.79ms
+[2017.06.30-16.29.06:019][906]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Grapple_ActorBP839735A14DCE27227504459F9D069C35.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Grapple_ActorBP.uasset'
+[2017.06.30-16.29.06:023][906]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Grapple_ActorBP.uasset
+[2017.06.30-16.29.16:036][606]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.06.30-16.29.16:717][606]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.30-16.29.16:938][606]LogSlate: Took 0.017849 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.30-16.29.21:754][841]LogSlate: Took 0.038618 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.30-16.31.38:090][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Grapple_ActorBP.uasset" SILENT=true
+[2017.06.30-16.31.38:155][783]LogSavePackage: Save=50.00ms
+[2017.06.30-16.31.38:155][783]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Grapple_ActorBPDEB445D0487401ACCDEDD89FAB414C8C.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Grapple_ActorBP.uasset'
+[2017.06.30-16.31.38:158][783]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Grapple_ActorBP.uasset
+[2017.06.30-16.31.53:853][ 85]LogSlate: Took 0.034572 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.06.30-16.32.09:571][641]BlueprintLog: New page: Compile HookInterface
+[2017.06.30-16.32.15:972][185]BlueprintLog: New page: Compile HookInterface
+[2017.06.30-16.32.20:823][563]BlueprintLog: New page: Compile BoxBP
+[2017.06.30-16.32.20:851][563]LogBlueprint:Error: [Compiler Grapple_ActorBP] Error Message node  Invalid Message Node  has an invalid interface.
+[2017.06.30-16.32.20:851][563]LogBlueprint:Warning: [Compiler Grapple_ActorBP] Warning Can't connect pins  Hit Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.06.30-16.32.20:851][563]LogBlueprint:Error: [Compiler Grapple_ActorBP] Error Could not find a function named "HookToPlatform" in 'Grapple_ActorBP'.
+Make sure 'Grapple_ActorBP' has been compiled for  Invalid Message Node
+[2017.06.30-16.32.20:851][563]LogBlueprint:Warning: [Compiler Grapple_ActorBP] Warning Can't connect pins  Object  and  Hit Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.06.30-16.32.39:528][884]BlueprintLog: New page: Compile Grapple_ActorBP
+[2017.06.30-16.32.39:558][884]LogBlueprint:Error: [Compiler Grapple_ActorBP] Error Message node  Invalid Message Node  has an invalid interface.
+[2017.06.30-16.32.39:558][884]LogBlueprint:Warning: [Compiler Grapple_ActorBP] Warning Can't connect pins  Hit Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.06.30-16.32.39:559][884]LogBlueprint:Error: [Compiler Grapple_ActorBP] Error Could not find a function named "HookToPlatform" in 'Grapple_ActorBP'.
+Make sure 'Grapple_ActorBP' has been compiled for  Invalid Message Node
+[2017.06.30-16.32.39:559][884]LogBlueprint:Warning: [Compiler Grapple_ActorBP] Warning Can't connect pins  Object  and  Hit Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.06.30-16.32.39:747][884]BlueprintEditorCompileResults:Error: Error Message node  Invalid Message Node  has an invalid interface.
+[2017.06.30-16.32.39:747][884]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Hit Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.06.30-16.32.39:747][884]BlueprintEditorCompileResults:Error: Error Could not find a function named "HookToPlatform" in 'Grapple_ActorBP'.
+Make sure 'Grapple_ActorBP' has been compiled for  Invalid Message Node
+[2017.06.30-16.32.39:747][884]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Object  and  Hit Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.06.30-16.32.39:747][884]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed
+[2017.06.30-16.32.39:747][884]LogBlueprint:Warning: [Compiler Grapple_ActorBP] Warning [0331.32] Compile of Grapple_ActorBP failed. 2 Fatal Issue(s) 2 Warning(s) [in 219 ms] (/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.Grapple_ActorBP)
+[2017.06.30-16.32.46:222][331]BlueprintLog: New page: Compile Grapple_ActorBP
+[2017.06.30-16.32.46:252][331]LogBlueprint:Error: [Compiler Grapple_ActorBP] Error Message node  Invalid Message Node  has an invalid interface.
+[2017.06.30-16.32.46:252][331]LogBlueprint:Warning: [Compiler Grapple_ActorBP] Warning Can't connect pins  Hit Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.06.30-16.32.46:252][331]LogBlueprint:Error: [Compiler Grapple_ActorBP] Error Could not find a function named "HookToPlatform" in 'Grapple_ActorBP'.
+Make sure 'Grapple_ActorBP' has been compiled for  Invalid Message Node
+[2017.06.30-16.32.46:252][331]LogBlueprint:Warning: [Compiler Grapple_ActorBP] Warning Can't connect pins  Object  and  Hit Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.06.30-16.32.46:438][331]BlueprintEditorCompileResults:Error: Error Message node  Invalid Message Node  has an invalid interface.
+[2017.06.30-16.32.46:438][331]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Hit Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.06.30-16.32.46:438][331]BlueprintEditorCompileResults:Error: Error Could not find a function named "HookToPlatform" in 'Grapple_ActorBP'.
+Make sure 'Grapple_ActorBP' has been compiled for  Invalid Message Node
+[2017.06.30-16.32.46:438][331]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Object  and  Hit Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.06.30-16.32.46:438][331]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed
+[2017.06.30-16.32.46:439][331]LogBlueprint:Warning: [Compiler Grapple_ActorBP] Warning [0338.01] Compile of Grapple_ActorBP failed. 2 Fatal Issue(s) 2 Warning(s) [in 216 ms] (/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.Grapple_ActorBP)
+[2017.06.30-16.32.54:123][710]BlueprintLog: New page: Compile Grapple_ActorBP
+[2017.06.30-16.32.54:150][710]LogBlueprint:Error: [Compiler Grapple_ActorBP] Error Message node  Invalid Message Node  has an invalid interface.
+[2017.06.30-16.32.54:150][710]LogBlueprint:Warning: [Compiler Grapple_ActorBP] Warning Can't connect pins  Hit Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.06.30-16.32.54:150][710]LogBlueprint:Error: [Compiler Grapple_ActorBP] Error Could not find a function named "HookToPlatform" in 'Grapple_ActorBP'.
+Make sure 'Grapple_ActorBP' has been compiled for  Invalid Message Node
+[2017.06.30-16.32.54:150][710]LogBlueprint:Warning: [Compiler Grapple_ActorBP] Warning Can't connect pins  Object  and  Hit Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.06.30-16.32.54:342][710]BlueprintEditorCompileResults:Error: Error Message node  Invalid Message Node  has an invalid interface.
+[2017.06.30-16.32.54:342][710]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Hit Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.06.30-16.32.54:342][710]BlueprintEditorCompileResults:Error: Error Could not find a function named "HookToPlatform" in 'Grapple_ActorBP'.
+Make sure 'Grapple_ActorBP' has been compiled for  Invalid Message Node
+[2017.06.30-16.32.54:342][710]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Object  and  Hit Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.06.30-16.32.54:342][710]LogBlueprint:Warning: [Compiler Grapple_ActorBP] Warning [0345.92] Compile of Grapple_ActorBP failed. 2 Fatal Issue(s) 2 Warning(s) [in 218 ms] (/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.Grapple_ActorBP)
+[2017.06.30-16.33.19:605][970]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Grapple_ActorBP.uasset" SILENT=true
+[2017.06.30-16.33.19:664][970]LogSavePackage: Save=53.62ms
+[2017.06.30-16.33.19:664][970]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Grapple_ActorBPE65321AA43BECE1DE971899F43F1EC0F.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Grapple_ActorBP.uasset'
+[2017.06.30-16.33.19:666][970]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Grapple_ActorBP.uasset
+[2017.06.30-16.33.20:523][ 35]BlueprintLog: New page: Compile Grapple_ActorBP
+[2017.06.30-16.33.20:551][ 35]LogBlueprint:Error: [Compiler Grapple_ActorBP] Error Message node  Invalid Message Node  has an invalid interface.
+[2017.06.30-16.33.20:551][ 35]LogBlueprint:Warning: [Compiler Grapple_ActorBP] Warning Can't connect pins  Hit Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.06.30-16.33.20:551][ 35]LogBlueprint:Error: [Compiler Grapple_ActorBP] Error Could not find a function named "HookToPlatform" in 'Grapple_ActorBP'.
+Make sure 'Grapple_ActorBP' has been compiled for  Invalid Message Node
+[2017.06.30-16.33.20:551][ 35]LogBlueprint:Warning: [Compiler Grapple_ActorBP] Warning Can't connect pins  Object  and  Hit Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.06.30-16.33.20:748][ 35]BlueprintEditorCompileResults:Error: Error Message node  Invalid Message Node  has an invalid interface.
+[2017.06.30-16.33.20:748][ 35]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Hit Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.06.30-16.33.20:749][ 35]BlueprintEditorCompileResults:Error: Error Could not find a function named "HookToPlatform" in 'Grapple_ActorBP'.
+Make sure 'Grapple_ActorBP' has been compiled for  Invalid Message Node
+[2017.06.30-16.33.20:749][ 35]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Object  and  Hit Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.06.30-16.33.20:749][ 35]LogBlueprint:Warning: [Compiler Grapple_ActorBP] Warning [0372.32] Compile of Grapple_ActorBP failed. 2 Fatal Issue(s) 2 Warning(s) [in 226 ms] (/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.Grapple_ActorBP)
+[2017.06.30-16.34.38:446][237]BlueprintLog: New page: Compile Grapple_ActorBP
+[2017.06.30-16.34.38:481][237]LogBlueprint:Error: [Compiler Grapple_ActorBP] Error Message node  Hook to Platform
+Using Interface HookInterface_C  must have a valid target or reference to self.
+[2017.06.30-16.34.38:482][237]LogBlueprint:Warning: [Compiler Grapple_ActorBP] Warning Can't connect pins  Hit Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.06.30-16.34.38:482][237]LogBlueprint:Warning: [Compiler Grapple_ActorBP] Warning Can't connect pins  Object  and  Hit Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.06.30-16.34.38:758][237]BlueprintEditorCompileResults:Error: Error Message node  Hook to Platform
+Using Interface HookInterface_C  must have a valid target or reference to self.
+[2017.06.30-16.34.38:758][237]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Hit Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.06.30-16.34.38:759][237]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Object  and  Hit Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.06.30-16.34.38:759][237]LogBlueprint:Warning: [Compiler Grapple_ActorBP] Warning [0450.33] Compile of Grapple_ActorBP failed. 1 Fatal Issue(s) 2 Warning(s) [in 313 ms] (/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP.Grapple_ActorBP)
+[2017.06.30-16.34.59:730][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Grapple_ActorBP.uasset" SILENT=true
+[2017.06.30-16.34.59:786][709]LogSavePackage: Save=52.95ms
+[2017.06.30-16.34.59:786][709]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Grapple_ActorBPB86ABDD54D5F11D79D2EAEA3B1C2E499.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Grapple_ActorBP.uasset'
+[2017.06.30-16.34.59:789][709]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Grapple_ActorBP.uasset
+[2017.06.30-16.35.07:371][310]BlueprintLog: New page: Compile Grapple_ActorBP
+[2017.06.30-16.35.14:793][666]BlueprintLog: New page: Compile Grapple_ActorBP
+[2017.06.30-16.38.07:015][424]BlueprintLog: New page: Compile Grapple_ActorBP
+[2017.06.30-16.38.35:390][260]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.30-16.38.44:447][287]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.017
+[2017.06.30-16.38.44:449][287]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP] ([1] browsable assets)...
+[2017.06.30-16.38.44:449][287]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP]
+[2017.06.30-16.38.44:515][287]LogSavePackage: Save=58.80ms
+[2017.06.30-16.38.44:515][287]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Grapple_ActorBP_Auto18B4BE7084FFC9A09C0B3C6A26EA33A6A.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP_Auto1.uasset'
+[2017.06.30-16.38.44:516][287]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP_Auto1.uasset
+[2017.06.30-16.38.44:516][287]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP] ([1] browsable assets)...
+[2017.06.30-16.38.44:516][287]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP]
+[2017.06.30-16.38.44:540][287]LogSavePackage: Save=14.05ms
+[2017.06.30-16.38.44:540][287]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBP_Auto1303D46084DF8465816F982AA8F09E149.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP_Auto1.uasset'
+[2017.06.30-16.38.44:541][287]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP_Auto1.uasset
+[2017.06.30-16.38.44:541][287]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/GrappleBP/Boxes/HookInterface] ([1] browsable assets)...
+[2017.06.30-16.38.44:541][287]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/GrappleBP/Boxes/HookInterface]
+[2017.06.30-16.38.44:556][287]LogSavePackage: Save=7.57ms
+[2017.06.30-16.38.44:556][287]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/HookInterface_Auto11FB5EFFF41C08EC0BD4416815030824D.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Boxes/HookInterface_Auto1.uasset'
+[2017.06.30-16.38.44:557][287]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Autosaves/Game/FirstPersonBP/GrappleBP/Boxes/HookInterface_Auto1.uasset
+[2017.06.30-16.38.44:557][287]LogFileHelpers: Auto-saving content packages took 0.110
+[2017.06.30-16.44.32:175][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Grapple_ActorBP.uasset" SILENT=true
+[2017.06.30-16.44.32:247][807]LogSavePackage: Save=55.02ms
+[2017.06.30-16.44.32:247][807]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Grapple_ActorBP482C57B74936BE5763821BA4C84B9B28.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Grapple_ActorBP.uasset'
+[2017.06.30-16.44.32:257][807]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Grapple_ActorBP.uasset
+[2017.06.30-16.44.39:277][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Boxes/BoxBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset" SILENT=true
+[2017.06.30-16.44.39:301][ 79]LogSavePackage: Save=14.20ms
+[2017.06.30-16.44.39:301][ 79]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/BoxBPA3A342D64CBF01F52EF555BA4EEFE787.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset'
+[2017.06.30-16.44.39:307][ 79]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/BoxBP.uasset
+[2017.06.30-16.44.39:329][ 79]LogSavePackage: Save=8.13ms
+[2017.06.30-16.44.39:329][ 79]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/HookInterfaceB6ABB5F8459338E7B6EE74B964ADD451.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/HookInterface.uasset'
+[2017.06.30-16.44.39:332][ 79]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/HookInterface.uasset
+[2017.06.30-16.45.13:195][257]BlueprintLog: New page: Compile Grapple_ActorBP
+[2017.06.30-16.46.07:558][260]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/GrappleBP/Grapple_ActorBP" FILE="C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Grapple_ActorBP.uasset" SILENT=true
+[2017.06.30-16.46.07:613][260]LogSavePackage: Save=50.42ms
+[2017.06.30-16.46.07:613][260]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/Grapple_ActorBP284A417C4014545B09044C89A3DF895F.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Grapple_ActorBP.uasset'
+[2017.06.30-16.46.07:616][260]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Grapple_ActorBP.uasset
+[2017.06.30-16.46.10:088][381]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.30-16.46.11:684][450]LogSavePackage: Save=8.40ms
+[2017.06.30-16.46.11:684][450]LogSavePackage: Moving 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Saved/HookInterface55DC8EEF4AC240DE1153CABBD5292F40.tmp' to 'C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/HookInterface.uasset'
+[2017.06.30-16.46.11:686][450]LogSavePackage:Display: Finished SavePackage C:/Users/tonir/Documents/Unreal Projects/bep/bep/Content/FirstPersonBP/GrappleBP/Boxes/HookInterface.uasset
+[2017.06.30-16.46.25:884][  6]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_StaticBoxBP_C_1' or package '/Engine/Transient'.
+[2017.06.30-16.46.25:884][  6]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.06.30-16.46.25:884][  6]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ICH-DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.06.30-16.46.25:884][  6]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InheritableComponentHandler' or package '/Engine/Transient'.
+[2017.06.30-16.46.25:884][  6]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.06.30-16.46.25:884][  6]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_StaticBoxBP_C_0' or package '/Engine/Transient'.
+[2017.06.30-16.46.25:884][  6]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_StaticBoxBP_C_146' or package '/Engine/Transient'.
+[2017.06.30-16.46.25:884][  6]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_StaticBoxBP_C_145' or package '/Engine/Transient'.
